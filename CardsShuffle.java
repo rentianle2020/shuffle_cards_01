@@ -7,9 +7,8 @@ public class CardsShuffle {
 
     public static void main(String[] args) {
 
-        //初始化一个0-53的随机数，作为下标使用
+        //初始化一个随机数，洗牌时作为下标使用
         Random random = new Random();
-        Integer randomNum = random.nextInt(54);
 
         //初始化一个牌组
         //数字(13)
